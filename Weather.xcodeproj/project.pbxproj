@@ -16,6 +16,8 @@
 		B20DFA4428BA58F400230EAA /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DFA4328BA58F400230EAA /* WeatherTests.swift */; };
 		B20DFA4E28BA58F400230EAA /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DFA4D28BA58F400230EAA /* WeatherUITests.swift */; };
 		B20DFA5028BA58F400230EAA /* WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DFA4F28BA58F400230EAA /* WeatherUITestsLaunchTests.swift */; };
+		B20DFA5D28BA5BC900230EAA /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DFA5C28BA5BC900230EAA /* WeatherInformation.swift */; };
+		B20DFA6128BBA8C500230EAA /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DFA6028BBA8C500230EAA /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B20DFA4928BA58F400230EAA /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20DFA4D28BA58F400230EAA /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		B20DFA4F28BA58F400230EAA /* WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B20DFA5C28BA5BC900230EAA /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		B20DFA6028BBA8C500230EAA /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				B20DFA2E28BA58F100230EAA /* SceneDelegate.swift */,
 				B20DFA3028BA58F100230EAA /* ViewController.swift */,
 				B20DFA3228BA58F100230EAA /* Main.storyboard */,
+				B20DFA5C28BA5BC900230EAA /* WeatherInformation.swift */,
 				B20DFA3528BA58F400230EAA /* Assets.xcassets */,
 				B20DFA3728BA58F400230EAA /* LaunchScreen.storyboard */,
 				B20DFA3A28BA58F400230EAA /* Info.plist */,
+				B20DFA6028BBA8C500230EAA /* ErrorMessage.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B20DFA3128BA58F100230EAA /* ViewController.swift in Sources */,
+				B20DFA5D28BA5BC900230EAA /* WeatherInformation.swift in Sources */,
+				B20DFA6128BBA8C500230EAA /* ErrorMessage.swift in Sources */,
 				B20DFA2D28BA58F100230EAA /* AppDelegate.swift in Sources */,
 				B20DFA2F28BA58F100230EAA /* SceneDelegate.swift in Sources */,
 			);
