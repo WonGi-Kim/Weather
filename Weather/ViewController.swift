@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     func getCurrentWeather(cityName: String) {
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=fb84cedc4a0d7fc406386a4b36ae8168") else { return }
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=api token 입력") else { return }
         
         let session = URLSession(configuration: .default)
         session.dataTask(with: url, completionHandler: {
